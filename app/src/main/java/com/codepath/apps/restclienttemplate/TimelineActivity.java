@@ -54,7 +54,7 @@ public class TimelineActivity extends AppCompatActivity {
 
         //find recycler view
         rvTweets=findViewById(R.id.rvTweets);
-        //init listw with tweets
+        //init list with tweets
         tweets=new ArrayList<>();
         adapter=new TweetsAdapter(this,tweets);
         rvTweets.setLayoutManager(new LinearLayoutManager(this));
